@@ -7,6 +7,6 @@ function onClick(){
 
 <template>
   <button @click="onClick">
-    MY UI BUTTON44
+    MY UI BUTTON00
   </button>
 </template>
