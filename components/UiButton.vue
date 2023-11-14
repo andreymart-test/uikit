@@ -6,7 +6,14 @@ function onClick(){
 </script>
 
 <template>
-  <button @click="onClick">
+  <button @click="onClick" class="btn">
     MY UI BUTTON44
   </button>
 </template>
+
+<style scoped>
+.btn{
+  background: darkslateblue;
+  color: white;
+}
+</style>
