@@ -1,10 +1,12 @@
 <script setup lang="ts">
 const { myLayer } = useAppConfig()
+function onClick(){
+  console.log(myLayer)
+}
 </script>
 
 <template>
-  <div>
-    <h1>Hello World!</h1>
-    <pre>{{ myLayer }}</pre>
-  </div>
+  <button @click="onClick">
+    MY UI BUTTON
+  </button>
 </template>
