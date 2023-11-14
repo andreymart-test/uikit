@@ -15,5 +15,6 @@ function onClick(){
 .btn{
   background: darkslateblue;
   color: white;
+
 }
 </style>
